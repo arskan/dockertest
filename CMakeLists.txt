@@ -8,8 +8,16 @@ add_executable(patate
     patate.cpp
     )
 
-
 add_test(patate
     patate
+    )
+
+add_executable(carotte
+    catch_main.cpp
+    carotte.cpp
+    )
+
+add_test(carotte
+    carotte
     )
 
